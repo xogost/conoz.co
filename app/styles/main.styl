@@ -1,0 +1,77 @@
+@import url("http://fonts.googleapis.com/css?family=Magra")
+font = 'Magra', sans-serif
+body
+  padding-top 20px
+  padding-bottom 20px
+  font-family: font !important
+
+.header,
+.marketing,
+.footer
+  padding-left 15px
+  padding-right 15px
+  width: 100%
+
+.header
+  border-bottom 1px solid #e5e5e5
+  margin-bottom 30px
+  h3
+    margin-top 0
+    margin-bottom 0
+    line-height 40px
+    padding-bottom 19px
+  h2
+    font-family: font !important
+
+.footer
+  padding-top 19px
+  color #777
+  border-top 1px solid #e5e5e5
+  background: #333333
+  height: 50px
+  text-align: center
+
+@media screen and (width: 1366px)
+  .container
+    max-width 80%
+  
+
+@media screen and (width: 768px)
+  .container
+    max-width 730px
+  .header,
+  .marketing,
+  .footer
+    padding-left 0
+    padding-right 0
+
+.container-narrow
+  & > hr
+    margin 30px 0
+
+.jumbotron
+  text-align center
+  border-bottom 1px solid #e5e5e5
+  border-bottom 0
+  .btn
+    font-size 21px
+    padding 14px 24px
+
+.marketing
+  margin 40px 0
+  p
+    & + h4
+      margin-top 28px
+
+#container
+  width: 100%
+  div
+    width: 30%
+    display: inline-block
+    text-align: center
+    margin-right: 2%
+    h2
+      width: 100%
+    p
+     width: 100%
+     text-align: justify 
