@@ -7,5 +7,5 @@ angular.module('conozcoApp')
       'AngularJS'
       'Karma'
     ]
-    $('.carousel').carousel()
+    $('.carousel').carousel({ interval: 2000 })
     																																	
